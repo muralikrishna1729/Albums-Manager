@@ -1,32 +1,35 @@
-# RTK Query Setup Tutorial
+# Albums Manager
 
-## Getting Start
+Albums Manager is a React-based web application for managing albums integrated with a backend JSON server. The app supports features like searching, sorting, pagination, deleting, and exporting albums to a CSV file.
 
-Install all Packages
+---
 
+## Features
+
+- **Search Filter**: Quickly search for albums by title.
+- **Sort Albums**: Sort albums by ID or title.
+- **Pagination**: Navigate through multiple pages of albums.
+- **View Album Details**: Display album details in a modal.
+- **Delete Confirmation**: Confirm before deleting an album.
+- **Export to CSV**: Export the list of albums to a CSV file.
+- **Dark/Light Theme**: Toggle between dark and light modes.
+- **Responsive Design**: Optimized for various screen sizes.
+
+---
+
+## Prerequisites
+
+- Node.js (v16 or later)
+- npm or yarn
+- JSON Server (for backend)
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/albums-manager.git
+cd albums-manager
 ```
-npm install
-```
-
-Run the project
-
-```
-npm start
-```
-
-Runs the app in the development mode.\
-Open [http://localhost:8001](http://localhost:8001) to view it in your browser.
-
-[json-server](https://github.com/typicode/json-server) will serve in [http://localhost:8000](http://localhost:8000)
-
-#### json-server Routes
-
-```
-GET     /Albums
-GET     /Albums/1
-POST    /Albums
-PUT     /Albums/1
-DELETE  /Albums/1
-```
-
-Access the data in `db.json` file
